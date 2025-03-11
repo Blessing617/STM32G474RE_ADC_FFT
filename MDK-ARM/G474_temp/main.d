@@ -49,4 +49,4 @@ g474_temp\main.o: ../Middlewares/ST/ARM/DSP/Inc/arm_math.h
 g474_temp\main.o: ../Drivers/CMSIS/Include/core_cm4.h
 g474_temp\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 g474_temp\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\math.h
-g474_temp\main.o: ..\HARDWARE\Window\WindowFunction.h
+g474_temp\main.o: ../HARDWARE/Window/WindowFunction.h

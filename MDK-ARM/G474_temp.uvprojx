@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32G474xx,ARM_MATH_CM4,__CC_ARM,ARM_MATH_MATRIX_CHECK,ARM_MATH_ROUNDING</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;../HARDWARE/DELAY;../HARDWARE/OLED;../HARDWARE/USART;../Middlewares/ST/ARM/DSP/Inc;../HARDWARE/FFT;..\HARDWARE\Window</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc;../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32G4xx/Include;../Drivers/CMSIS/Include;../HARDWARE/DELAY;../HARDWARE/OLED;../HARDWARE/USART;../Middlewares/ST/ARM/DSP/Inc;../HARDWARE/FFT;../HARDWARE/Window</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -995,6 +995,9 @@
           </Files>
         </Group>
         <Group>
+          <GroupName>::CMSIS</GroupName>
+        </Group>
+        <Group>
           <GroupName>Middlewares/Library/DSP Library/DSP Library</GroupName>
           <GroupOption>
             <CommonProperty>
@@ -1091,9 +1094,6 @@
               </FileOption>
             </File>
           </Files>
-        </Group>
-        <Group>
-          <GroupName>::CMSIS</GroupName>
         </Group>
       </Groups>
     </Target>

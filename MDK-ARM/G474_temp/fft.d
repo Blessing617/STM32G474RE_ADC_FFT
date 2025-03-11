@@ -48,4 +48,4 @@ g474_temp\fft.o: ../HARDWARE/USART/myusart1.h
 g474_temp\fft.o: ../Core/Inc/usart.h
 g474_temp\fft.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 g474_temp\fft.o: ../HARDWARE/OLED/OLED_I2C.h
-g474_temp\fft.o: ..\HARDWARE\Window\WindowFunction.h
+g474_temp\fft.o: ../HARDWARE/Window/WindowFunction.h
